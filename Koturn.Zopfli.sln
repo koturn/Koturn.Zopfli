@@ -1,25 +1,72 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koturn.Zopfli", "Koturn.Zopfli\Koturn.Zopfli.csproj", "{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348} = {084ED0ED-6B55-4734-B77E-42D7C24B6348}
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B} = {CC414E6F-D22E-478D-8DD1-D25FB819B90B}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzopfli", "C:\Users\koturn\source\repos\Koturn.Zopfli\libzopfli\libzopfli.vcxproj", "{084ED0ED-6B55-4734-B77E-42D7C24B6348}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libzopflipng", "C:\Users\koturn\source\repos\Koturn.Zopfli\libzopflipng\libzopflipng.vcxproj", "{CC414E6F-D22E-478D-8DD1-D25FB819B90B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348} = {084ED0ED-6B55-4734-B77E-42D7C24B6348}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Debug|x86.Build.0 = Debug|Any CPU
 		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|x64.Build.0 = Release|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{F26DB48F-D9AB-42D1-9121-5E7FE6E046BC}.Release|x86.Build.0 = Release|Any CPU
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|Any CPU.Build.0 = Debug|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|x64.ActiveCfg = Debug|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|x64.Build.0 = Debug|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|x86.ActiveCfg = Debug|Win32
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Debug|x86.Build.0 = Debug|Win32
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|Any CPU.ActiveCfg = Release|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|Any CPU.Build.0 = Release|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|x64.ActiveCfg = Release|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|x64.Build.0 = Release|x64
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|x86.ActiveCfg = Release|Win32
+		{084ED0ED-6B55-4734-B77E-42D7C24B6348}.Release|x86.Build.0 = Release|Win32
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|Any CPU.Build.0 = Debug|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|x64.ActiveCfg = Debug|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|x64.Build.0 = Debug|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|x86.ActiveCfg = Debug|Win32
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Debug|x86.Build.0 = Debug|Win32
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|Any CPU.ActiveCfg = Release|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|Any CPU.Build.0 = Release|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|x64.ActiveCfg = Release|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|x64.Build.0 = Release|x64
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|x86.ActiveCfg = Release|Win32
+		{CC414E6F-D22E-478D-8DD1-D25FB819B90B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
