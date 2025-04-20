@@ -36,7 +36,7 @@ namespace Koturn.Zopfli.Tests
             var data = File.ReadAllBytes(filePath);
 
             var sw = Stopwatch.StartNew();
-            var opt = new ZopfliPngOptions(true, true, true, true, 30, 30);
+            var opt = new ZopfliPngOptions(true, true, true, true, false, 30, 30);
             var recompressedData = ZopfliPng.OptimizePng(data, opt);
 
             Console.WriteLine($"Optimize {filePath}: Original=[{data.Length}]Bytes Compressed=[{recompressedData.Length}]Bytes; Elapsed=[{sw.ElapsedMilliseconds}]ms");
