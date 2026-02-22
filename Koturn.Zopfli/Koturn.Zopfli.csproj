@@ -8,7 +8,7 @@
     <WarningLevel>8</WarningLevel>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Title>Koturn.Zopfli</Title>
-    <Version>2.1.1</Version>
+    <Version>2.2.1</Version>
     <Authors>koturn</Authors>
     <Company>koturn</Company>
     <Description>A P/Invoke library for google/zopfli (zopfli.dll and zopflipng.dll).</Description>
